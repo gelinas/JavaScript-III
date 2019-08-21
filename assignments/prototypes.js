@@ -157,6 +157,7 @@ Villian.prototype.stab = function (target) {
     console.log(target.destroy());
   } else {
     console.log(`${this.name} stabbed ${target.name}! 1 Damage dealt. ${target.healthPoints} health points remaining!`);
+    console.log(target.takeDamage());
   }
 };
 
